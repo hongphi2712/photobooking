@@ -31,8 +31,8 @@ const WeddingPage = () => {
   return (
     <>
       <SEO 
-        title="Dịch Vụ Chụp Ảnh Cưới - LifeStudio"
-        description="Dịch vụ chụp ảnh cưới chuyên nghiệp tại LifeStudio với các gói Basic, Standard và Premium. Lưu giữ khoảnh khắc đẹp nhất của bạn."
+        title="Dịch Vụ Chụp Ảnh Cưới - GreenStudio"
+        description="Dịch vụ chụp ảnh cưới chuyên nghiệp tại GreenStudio với các gói Basic, Standard và Premium. Lưu giữ khoảnh khắc đẹp nhất của bạn."
         keywords="chụp ảnh cưới, chụp ảnh cưới Hà Nội, gói chụp ảnh cưới"
         canonical="https://photobooking-delta.vercel.app/wedding"
       />
@@ -45,6 +45,8 @@ const WeddingPage = () => {
     src="/480137105_632855469494294_1953322673443099027_n.jpg"
     className="absolute inset-0 w-full h-full object-cover object-top"
     alt="Wedding"
+    loading="eager"
+    fetchPriority="high"
   />
 
   {/* Overlay sáng mịn */}

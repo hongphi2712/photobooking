@@ -67,6 +67,8 @@ const PhotobookPage = () => {
               <img 
                 src="https://lifestudio.vn/Uploads/2128/images/photobook/b%E1%BA%A3ng%20gi%C3%A1/bang-gia-photobook-ky-yeu.jpg"
                 alt="Bảng giá photobook kỷ yếu"
+                loading="lazy"
+                decoding="async"
                 className="w-full h-auto"
               />
             </div>
@@ -88,6 +90,8 @@ const PhotobookPage = () => {
                     <img 
                       src={book.image} 
                       alt={book.name}
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
                     />
                   </div>
