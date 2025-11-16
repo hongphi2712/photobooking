@@ -15,7 +15,7 @@ const PriceTable = () => {
         {/* Desktop Image */}
         <div className="hidden md:block relative mb-12 max-w-6xl mx-auto">
           <img 
-            src="/chup-anh-ky-yeu (2).jpg" 
+            src="https://lifestudio.vn/Uploads/2128/images/%E1%BA%A2nh%20trang%20ch%E1%BB%A7/chup-anh-ky-yeu%20(2).jpg" 
             alt="Kỷ yếu hết ý" 
             className="w-full h-[500px] object-cover rounded-3xl shadow-2xl"
             loading="lazy"

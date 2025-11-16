@@ -10,7 +10,7 @@ export const costumes = [
     id: 2,
     title: 'Vest Nam',
     price: '300.000đ/ngày',
-    image: 'https://kyyeutnt.vn/wp-content/uploads/2024/08/TNT-MEDIA-119.jpg',  
+    image: 'https://vn1.vdrive.vn/alohamedia.vn/2023/12/404760312_305010955834797_485527206604628006_n_7_11zon-683x1024.webp',  
     description: 'Vest cao cấp, lịch sự và sang trọng'
   },
   {
