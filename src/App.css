@@ -1,0 +1,4 @@
+/* Smooth scrolling offset for fixed header */
+section {
+  scroll-margin-top: 80px;
+}
