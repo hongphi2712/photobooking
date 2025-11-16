@@ -42,9 +42,11 @@ const RentalPage = () => {
                     <p className="text-gray-600 text-sm mb-4">{costume.description}</p>
                     <div className="flex items-center justify-between">
                       <span className="text-xl font-bold text-teal-600">{costume.price}</span>
-                      <button className="px-6 py-2 bg-teal-600 text-white rounded-full font-semibold hover:bg-teal-700 transition-colors">
-                        Thuê Ngay
-                      </button>
+                      <a href="/contact">
+                        <button className="px-6 py-2 bg-teal-600 text-white rounded-full font-semibold hover:bg-teal-700 transition-colors">
+                          Thuê Ngay
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>

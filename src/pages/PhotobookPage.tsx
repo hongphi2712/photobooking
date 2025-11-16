@@ -7,27 +7,27 @@ const PhotobookPage = () => {
     {
       id: 1,
       name: 'Photobook Kỷ Yếu 1',
-      image: 'https://greenstudio.vn/uploads/2128/images/photobook-ky-yeu-1.jpg'
+      image: 'https://lifestudio.vn/uploads/2128/images/photobook-ky-yeu-1.jpg'
     },
     {
       id: 2,
       name: 'Photobook Kỷ Yếu 2',
-      image: 'https://greenstudio.vn/uploads/2128/images/photobook-ky-yeu-2.jpg'
+      image: 'https://lifestudio.vn/uploads/2128/images/photobook-ky-yeu-2.jpg'
     },
     {
       id: 3,
       name: 'Photobook Kỷ Yếu 3',
-      image: 'https://greenstudio.vn/uploads/2128/images/photobook-ky-yeu-3.jpg'
+      image: 'https://lifestudio.vn/uploads/2128/images/photobook-ky-yeu-3.jpg'
     },
     {
       id: 4,
       name: 'Photobook Kỷ Yếu 4',
-      image: 'https://greenstudio.vn/uploads/2128/images/photobook-ky-yeu-4.jpg'
+      image: 'https://lifestudio.vn/uploads/2128/images/photobook-ky-yeu-4.jpg'
     },
     {
       id: 5,
       name: 'Photobook Kỷ Yếu 5',
-      image: 'https://greenstudio.vn/uploads/2128/images/photobook-ky-yeu-5.jpg'
+      image: 'https://lifestudio.vn/uploads/2128/images/photobook-ky-yeu-5.jpg'
     }
   ];
 
@@ -65,7 +65,7 @@ const PhotobookPage = () => {
 
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
               <img 
-                src="https://greenstudio.vn/Uploads/2128/images/photobook/b%E1%BA%A3ng%20gi%C3%A1/bang-gia-photobook-ky-yeu.jpg"
+                src="https://lifestudio.vn/Uploads/2128/images/photobook/b%E1%BA%A3ng%20gi%C3%A1/bang-gia-photobook-ky-yeu.jpg"
                 alt="Bảng giá photobook kỷ yếu"
                 className="w-full h-auto"
               />
