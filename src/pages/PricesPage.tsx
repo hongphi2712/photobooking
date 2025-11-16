@@ -84,7 +84,7 @@ const PricesPage = () => {
             {/* Banner */}
             <div className="relative mb-20 rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/chup-anh-ky-yeu (2).jpg"
+                src="https://lifestudio.vn/Uploads/2128/images/%E1%BA%A2nh%20trang%20ch%E1%BB%A7/chup-anh-ky-yeu%20(2).jpg" 
                 alt="Kỷ yếu"
                 className="w-full h-[550px] object-cover"
               />
