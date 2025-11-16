@@ -4,12 +4,12 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gradient-to-br from-pink-400 to-pink-500 text-white py-16 px-4">
+    <footer className="bg-gradient-to-br from-teal-600 to-teal-700 text-white py-16 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           <div>
-            <h3 className="text-2xl font-bold mb-4 tracking-wider">LIFE STUDIO</h3>
-            <p className="text-pink-50 mb-6 text-sm leading-relaxed">
+            <h3 className="text-2xl font-bold mb-4 tracking-wider">GreenStudio</h3>
+            <p className="text-teal-50 mb-6 text-sm leading-relaxed">
               Chụp ảnh kỷ yếu chuyên nghiệp, lưu giữ những khoảnh khắc đẹp nhất của tuổi trẻ.
             </p>
             <div className="flex gap-3">
@@ -30,7 +30,7 @@ const Footer = () => {
 
           <div>
             <h4 className="text-lg font-bold mb-4">Dịch Vụ</h4>
-            <ul className="space-y-2 text-sm text-pink-50">
+            <ul className="space-y-2 text-sm text-teal-50">
               <li><a href="#prices" className="hover:text-white transition-colors hover:translate-x-1 inline-block">Chụp ảnh kỷ yếu</a></li>
               <li><a href="#services" className="hover:text-white transition-colors hover:translate-x-1 inline-block">Cho thuê trang phục</a></li>
               <li><a href="#photobook" className="hover:text-white transition-colors hover:translate-x-1 inline-block">Photobook</a></li>
@@ -41,7 +41,7 @@ const Footer = () => {
 
           <div>
             <h4 className="text-lg font-bold mb-4">Liên Hệ</h4>
-            <ul className="space-y-3 text-sm text-pink-50">
+            <ul className="space-y-3 text-sm text-teal-50">
               <li className="flex items-start gap-2">
                 <span>📍</span>
                 <span>123 Đường ABC, Quận XYZ, Hà Nội</span>
@@ -52,7 +52,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <a href="mailto:lifestudio@gmail.com" className="hover:text-white transition-colors break-all">lifestudio@gmail.com</a>
+                <a href="mailto:greenstudio@gmail.com" className="hover:text-white transition-colors break-all">greenstudio@gmail.com</a>
               </li>
               <li className="flex items-center gap-2">
                 <span>🕒</span>
@@ -63,24 +63,24 @@ const Footer = () => {
 
           <div>
             <h4 className="text-lg font-bold mb-4">Theo Dõi Chúng Tôi</h4>
-            <p className="text-pink-50 text-sm mb-4 leading-relaxed">
+            <p className="text-teal-50 text-sm mb-4 leading-relaxed">
               Cập nhật những bộ ảnh mới nhất và ưu đãi đặc biệt
             </p>
             <div className="flex gap-2">
               <input 
                 type="email" 
                 placeholder="Email của bạn" 
-                className="flex-1 px-4 py-2 rounded-full bg-white/20 border border-white/30 text-white placeholder-pink-100 focus:outline-none focus:bg-white/30 text-sm"
+                className="flex-1 px-4 py-2 rounded-full bg-white/20 border border-white/30 text-white placeholder-teal-100 focus:outline-none focus:bg-white/30 text-sm"
               />
-              <button className="px-5 py-2 bg-white text-pink-500 rounded-full font-semibold hover:bg-pink-50 transition-colors text-sm whitespace-nowrap">
+              <button className="px-5 py-2 bg-white text-teal-600 rounded-full font-semibold hover:bg-teal-50 transition-colors text-sm whitespace-nowrap">
                 Đăng ký
               </button>
             </div>
           </div>
         </div>
 
-        <div className="pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-pink-50">
-          <p>&copy; {currentYear} Life Studio. All rights reserved.</p>
+        <div className="pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-teal-50">
+          <p>&copy; {currentYear} GreenStudio. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#privacy" className="hover:text-white transition-colors">Chính sách bảo mật</a>
             <span className="opacity-50">|</span>

@@ -1,45 +1,38 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
-import { Eye } from 'lucide-react';
 
 const PricesPage = () => {
-  const priceCategories = [
+  const packages = [
     {
-      id: 1,
-      title: 'Bảng giá chụp ảnh concept',
-      image: 'https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=800',
-      description: 'Phong cách nghệ thuật, độc đáo, sáng tạo cho mọi độ tuổi'
+      id: '1',
+      name: 'COMBO 1',
+      image: 'https://greenstudio.vn/uploads/2128/images/638761807874688724-bang-gia-chup-anh-ky-yeu-01.jpg',
     },
     {
-      id: 2,
-      title: 'Bảng giá chụp ảnh kỷ yếu Hà Nội',
-      image: 'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=800',
-      description: 'Chuyên chụp ảnh kỷ yếu tại Hà Nội, đa dạng địa điểm'
+      id: '2',
+      name: 'COMBO 2',
+      image: 'https://greenstudio.vn/uploads/2128/images/638144796499639992-chup-anh-ky-yeu-2.jpg',
     },
     {
-      id: 3,
-      title: 'Bảng giá chụp ảnh kỷ yếu cấp 1',
-      image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800',
-      description: 'Gói chụp cho học sinh tiểu học, phong cách ngây thơ, đáng yêu'
+      id: '3',
+      name: 'COMBO 3',
+      image: 'https://greenstudio.vn/uploads/2128/images/638137838583262390-chup-anh-ky-yeu-3.jpg',
     },
     {
-      id: 4,
-      title: 'Bảng giá chụp ảnh kỷ yếu cấp 2',
-      image: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800',
-      description: 'Dành cho học sinh THCS, tươi trẻ và năng động'
+      id: '4',
+      name: 'COMBO 4',
+      image: 'https://greenstudio.vn/uploads/2128/images/638137838583418645-chup-anh-ky-yeu-4.jpg',
     },
     {
-      id: 5,
-      title: 'Bảng giá chụp ảnh kỷ yếu cấp 3',
-      image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800',
-      description: 'Học sinh THPT, kỷ niệm tuổi 18 đáng nhớ'
+      id: '5',
+      name: 'COMBO 5',
+      image: 'https://greenstudio.vn/uploads/2128/images/638137838583574880-chup-anh-ky-yeu-5.jpg',
     },
     {
-      id: 6,
-      title: 'Bảng giá chụp ảnh kỷ yếu sinh viên',
-      image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800',
-      description: 'Sinh viên đại học, phong cách trẻ trung, chuyên nghiệp'
+      id: '6',
+      name: 'COMBO 6',
+      image: 'https://greenstudio.vn/uploads/2128/images/638137838583731159-chup-anh-ky-yeu-6.jpg',
     }
   ];
 
@@ -60,14 +53,14 @@ const PricesPage = () => {
     },
     {
       id: 3,
-      title: 'Kinh nghiệm chụp ảnh kỷ yếu của Life Studio đẹp tuyệt vời và cực hài lòng',
+      title: 'Kinh nghiệm chụp ảnh kỷ yếu của GreenStudio đẹp tuyệt vời và cực hài lòng',
       date: '15 tháng 11, 2024',
       views: '678 Lượt xem',
       image: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600'
     },
     {
       id: 4,
-      title: 'Tạo sao nên lựa chọn ảnh kỷ yếu chụp ảnh kỷ yếu của Life Studio?',
+      title: 'Tạo sao nên lựa chọn ảnh kỷ yếu chụp ảnh kỷ yếu của GreenStudio?',
       date: '10 tháng 11, 2024',
       views: '543 Lượt xem',
       image: 'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=600'
@@ -77,66 +70,111 @@ const PricesPage = () => {
   return (
     <>
       <SEO 
-        title="Bảng Giá Chụp Ảnh Kỷ Yếu - Life Studio"
-        description="Bảng giá chụp ảnh kỷ yếu chi tiết tại Life Studio. Gói concept, Hà Nội, cấp 1, cấp 2, cấp 3, sinh viên với nhiều ưu đãi hấp dẫn."
+        title="Bảng Giá Chụp Ảnh Kỷ Yếu - GreenStudio"
+        description="Bảng giá chụp ảnh kỷ yếu chi tiết tại GreenStudio. Gói concept, Hà Nội, cấp 1, cấp 2, cấp 3, sinh viên với nhiều ưu đãi hấp dẫn."
         keywords="bảng giá chụp ảnh kỷ yếu, giá chụp ảnh concept, giá chụp ảnh kỷ yếu Hà Nội"
-        canonical="https://lifestudio.vn/prices"
+        canonical="https://greenstudio.vn/prices"
       />
       <Header />
       <main className="pt-20 min-h-screen bg-white">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-pink-50 to-white py-16 px-4">
-          <div className="max-w-7xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              CHỤP ẢNH KỶ YẾU - LIFE STUDIO
-            </h1>
-            <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Life Studio là địa chỉ uy tín được nhiều bạn sinh viên, học sinh tin tưởng để thực hiện những bức ảnh. Khi tới mọi giao hưởng, bạn sinh tồn trong giang từng bước phấn trấn ướng. 
-              Yêu thương với nhau và gửi nghiên chung cũng nay, học chụp kỷ niệm, cho trương, sau tập cuộc. Life Studio sẽ lưu lại cho những điều đặc biệt gì
-            </p>
+        <section className="relative py-24 px-4 bg-gradient-to-b from-teal-50/60 to-white overflow-hidden">
+          {/* Lá decor góc trái */}
+          <div className="absolute top-10 left-10 w-40 opacity-[0.12] pointer-events-none select-none">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 52C12 34 30 12 52 12C52 34 30 52 12 52Z"
+                fill="#0d9488"
+                fillOpacity="0.7"
+              />
+            </svg>
           </div>
-        </section>
 
-        {/* Price Categories Grid */}
-        <section className="py-16 px-4">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {priceCategories.map(category => (
-                <div 
-                  key={category.id} 
-                  className="group relative bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
-                >
-                  <div className="relative h-72 overflow-hidden">
-                    <img 
-                      src={category.image} 
-                      alt={category.title}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
-                  </div>
-                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                    <h3 className="text-xl font-bold mb-2">{category.title}</h3>
-                    <p className="text-sm text-white/90 mb-4">{category.description}</p>
-                    <button className="flex items-center gap-2 text-sm font-semibold bg-white/20 hover:bg-white/30 backdrop-blur-sm px-4 py-2 rounded-full transition-colors">
-                      <Eye className="w-4 h-4" />
-                      Xem thêm
-                    </button>
-                  </div>
+          {/* Lá decor góc phải */}
+          <div className="absolute bottom-20 right-10 w-48 rotate-45 opacity-[0.10] pointer-events-none select-none">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 52C12 34 30 12 52 12C52 34 30 52 12 52Z"
+                fill="#14b8a6"
+                fillOpacity="0.6"
+              />
+            </svg>
+          </div>
+
+          <div className="max-w-7xl mx-auto relative z-10">
+            {/* Header */}
+            <div className="text-center mb-20">
+              <h2 className="text-4xl md:text-5xl font-extrabold text-teal-700 tracking-wide">
+                KỶ YẾU HẾT Ý
+              </h2>
+              <h1 className="text-6xl md:text-7xl font-extrabold text-teal-800 mt-3">
+                GIÁ HẾT LÒNG
+              </h1>
+              <div className="w-24 h-1.5 bg-teal-600 mx-auto mt-6 rounded-full"></div>
+            </div>
+
+            {/* Banner */}
+            <div className="relative mb-20 rounded-3xl overflow-hidden shadow-2xl">
+              <img
+                src="/chup-anh-ky-yeu (2).jpg"
+                alt="Kỷ yếu"
+                className="w-full h-[550px] object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+
+              <div className="absolute bottom-0 p-10 text-white">
+                <h4 className="text-4xl md:text-6xl font-extrabold mb-3">
+                  CHỈ TỪ <span className="text-teal-300">159K</span>
+                </h4>
+                <p className="text-xl md:text-2xl text-gray-200 mb-6">
+                  Giá chụp ảnh kỷ yếu tốt nhất Hà Nội – ưu đãi cho nhóm đông
+                </p>
+              </div>
+            </div>
+
+            {/* Note Box */}
+            <div className="bg-teal-50 rounded-2xl p-8 border-l-4 border-teal-600 shadow-sm mb-16">
+              <p className="text-gray-700 text-sm mb-2">* Giá áp dụng cho nhóm 5–10 người</p>
+              <p className="text-gray-700 text-sm mb-2">* Liên hệ để nhận báo giá chi tiết cho nhóm đông</p>
+              <p className="text-gray-700 text-sm">* Ưu đãi đặc biệt cho khách đặt lịch sớm</p>
+            </div>
+
+            {/* Title */}
+            <h2 className="text-center text-4xl md:text-5xl font-bold text-teal-800 mb-6 tracking-wide">
+              BẢNG GIÁ CHỤP KỶ YẾU
+            </h2>
+
+            <p className="text-center text-gray-700 max-w-4xl mx-auto leading-relaxed mb-16">
+              GreenStudio gửi đến quý khách hàng các combo chụp ảnh kỷ yếu chuyên nghiệp. 
+              Với đội ngũ Ekip chuyên nghiệp, nhiệt tình, trách nhiệm với công việc, từ trang phục kỷ yếu,
+              concept trang phục kỷ yếu, chụp ảnh kỷ yếu, phụ kiện, phương tiện di chuyển đến các dịch vụ
+              như quay MV kỷ yếu, làm photobook... tất cả đều được GreenStudio làm bằng sự tận tâm, nhiệt huyết: uy tín làm đầu.
+            </p>
+
+            {/* Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+              {packages.map(pkg => (
+                <div key={pkg.id} className="flex justify-center">
+                  <img
+                    src={pkg.image}
+                    alt={pkg.name}
+                    className="w-full md:w-[95%] rounded-xl shadow-md border hover:shadow-xl transition-shadow duration-300"
+                  />
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* Tin Tức Section */}
-        <section className="py-16 px-4 bg-gradient-to-b from-white to-pink-50">
+        {/* Price Categories Grid */}
+        <section className="py-16 px-4">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
-                TIN TỨC LIFESTUDIO
+                TIN TỨC greenstudio
               </h2>
-              <p className="text-gray-600">Khám phá những tin tức mới cập Life Studio</p>
-              <div className="w-20 h-1 bg-pink-400 mx-auto mt-4 rounded-full"></div>
+              <p className="text-gray-600">Khám phá những tin tức mới cập GreenStudio</p>
+              <div className="w-20 h-1 bg-teal-600 mx-auto mt-4 rounded-full"></div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -151,14 +189,14 @@ const PricesPage = () => {
                     />
                   </div>
                   <div className="md:w-1/2 p-8 flex flex-col justify-center">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-pink-500 transition-colors">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-teal-600 transition-colors">
                       {blogPosts[0].title}
                     </h3>
                     <div className="flex items-center gap-4 text-sm text-gray-500 mb-4">
                       <span>📅 {blogPosts[0].date}</span>
                       <span>👁️ {blogPosts[0].views}</span>
                     </div>
-                    <button className="self-start px-6 py-2 bg-pink-400 text-white rounded-full font-semibold hover:bg-pink-500 transition-colors">
+                    <button className="self-start px-6 py-2 bg-teal-600 text-white rounded-full font-semibold hover:bg-teal-700 transition-colors">
                       Đọc thêm
                     </button>
                   </div>
@@ -176,14 +214,14 @@ const PricesPage = () => {
                     />
                   </div>
                   <div className="md:w-1/2 p-8 flex flex-col justify-center">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-pink-500 transition-colors">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-teal-600 transition-colors">
                       {blogPosts[1].title}
                     </h3>
                     <div className="flex items-center gap-4 text-sm text-gray-500 mb-4">
                       <span>📅 {blogPosts[1].date}</span>
                       <span>👁️ {blogPosts[1].views}</span>
                     </div>
-                    <button className="self-start px-6 py-2 bg-pink-400 text-white rounded-full font-semibold hover:bg-pink-500 transition-colors">
+                    <button className="self-start px-6 py-2 bg-teal-600 text-white rounded-full font-semibold hover:bg-teal-700 transition-colors">
                       Đọc thêm
                     </button>
                   </div>
@@ -202,7 +240,7 @@ const PricesPage = () => {
                       />
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-base font-bold text-gray-900 mb-2 line-clamp-2 group-hover:text-pink-500 transition-colors">
+                      <h3 className="text-base font-bold text-gray-900 mb-2 line-clamp-2 group-hover:text-teal-600 transition-colors">
                         {post.title}
                       </h3>
                       <div className="flex flex-col gap-1 text-xs text-gray-500">
@@ -216,7 +254,7 @@ const PricesPage = () => {
             </div>
 
             <div className="text-center mt-12">
-              <button className="px-10 py-3 border-2 border-pink-400 text-pink-500 rounded-full font-semibold hover:bg-pink-50 transition-colors">
+              <button className="px-10 py-3 border-2 border-teal-600 text-teal-600 rounded-full font-semibold hover:bg-teal-50 transition-colors">
                 Xem thêm
               </button>
             </div>

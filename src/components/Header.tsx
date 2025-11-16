@@ -9,8 +9,8 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="text-2xl font-bold text-pink-500 tracking-wider hover:text-pink-600 transition-colors">
-            LIFE STUDIO
+          <Link to="/" className="text-2xl font-bold text-teal-600 tracking-wider hover:text-teal-700 transition-colors">
+            GreenStudio
           </Link>
           
           <button 
@@ -23,31 +23,34 @@ const Header = () => {
 
           <nav className={`${isMenuOpen ? 'block' : 'hidden'} lg:flex absolute lg:relative top-20 lg:top-0 left-0 right-0 bg-white lg:bg-transparent shadow-lg lg:shadow-none`}>
             <div className="flex flex-col lg:flex-row lg:items-center lg:gap-8 p-6 lg:p-0">
-              <Link to="/" className="py-3 lg:py-0 text-sm font-semibold uppercase hover:text-pink-500 transition-colors border-b lg:border-0 border-pink-100">
+              <Link to="/" className="py-3 lg:py-0 text-sm font-semibold uppercase hover:text-teal-600 transition-colors border-b lg:border-0 border-teal-100">
                 Trang chủ
               </Link>
-              <Link to="/prices" className="py-3 lg:py-0 text-sm font-semibold uppercase hover:text-pink-500 transition-colors border-b lg:border-0 border-pink-100">
+              <Link to="/prices" className="py-3 lg:py-0 text-sm font-semibold uppercase hover:text-teal-600 transition-colors border-b lg:border-0 border-teal-100">
                 Bảng giá
               </Link>
-              <Link to="/album" className="py-3 lg:py-0 text-sm font-semibold uppercase hover:text-pink-500 transition-colors border-b lg:border-0 border-pink-100">
+              <Link to="/album" className="py-3 lg:py-0 text-sm font-semibold uppercase hover:text-teal-600 transition-colors border-b lg:border-0 border-teal-100">
                 Album
               </Link>
-              <Link to="/photobook" className="py-3 lg:py-0 text-sm font-semibold uppercase hover:text-pink-500 transition-colors border-b lg:border-0 border-pink-100">
+              <Link to="/photobook" className="py-3 lg:py-0 text-sm font-semibold uppercase hover:text-teal-600 transition-colors border-b lg:border-0 border-teal-100">
                 Photobook
               </Link>
-              <Link to="/rental" className="py-3 lg:py-0 text-sm font-semibold uppercase hover:text-pink-500 transition-colors border-b lg:border-0 border-pink-100">
+              <Link to="/rental" className="py-3 lg:py-0 text-sm font-semibold uppercase hover:text-teal-600 transition-colors border-b lg:border-0 border-teal-100">
                 Cho thuê
               </Link>
-              <Link to="/wedding" className="py-3 lg:py-0 text-sm font-semibold uppercase hover:text-pink-500 transition-colors border-b lg:border-0 border-pink-100">
+              <Link to="/wedding" className="py-3 lg:py-0 text-sm font-semibold uppercase hover:text-teal-600 transition-colors border-b lg:border-0 border-teal-100">
                 Cưới
               </Link>
-              <Link to="/contact" className="py-3 lg:py-0 text-sm font-semibold uppercase hover:text-pink-500 transition-colors">
+              <Link to="/booking" className="py-3 lg:py-0 text-sm font-semibold uppercase hover:text-teal-600 transition-colors border-b lg:border-0 border-teal-100">
+                Đặt lịch
+              </Link>
+              <Link to="/contact" className="py-3 lg:py-0 text-sm font-semibold uppercase hover:text-teal-600 transition-colors">
                 Liên hệ
               </Link>
             </div>
           </nav>
 
-          <a href="tel:0968313986" className="hidden lg:flex items-center gap-2 text-pink-500 font-semibold hover:text-pink-600 transition-colors">
+          <a href="tel:0968313986" className="hidden lg:flex items-center gap-2 text-teal-600 font-semibold hover:text-teal-700 transition-colors">
             <Phone className="w-5 h-5" />
             <span>0968 313 986</span>
           </a>

@@ -1,4 +1,4 @@
-# Life Studio - SEO & Technical Setup Guide
+# GreenStudio - SEO & Technical Setup Guide
 
 ## Google Analytics Setup
 
@@ -16,7 +16,7 @@ Thay thế `G-XXXXXXXXXX` trong các file sau:
 
 ### Bước 1: Xác thực website
 1. Truy cập [Google Search Console](https://search.google.com/search-console)
-2. Thêm property mới với URL: https://lifestudio.vn
+2. Thêm property mới với URL: https://greenstudio.vn
 3. Chọn phương thức xác thực: **HTML tag**
 4. Copy mã xác thực
 
@@ -26,7 +26,7 @@ Thay thế `YOUR_VERIFICATION_CODE_HERE` trong `index.html` (dòng 20) bằng m�
 ### Bước 3: Submit Sitemap
 1. Sau khi xác thực thành công
 2. Vào **Sitemaps** trong Google Search Console
-3. Thêm URL sitemap: `https://lifestudio.vn/sitemap.xml`
+3. Thêm URL sitemap: `https://greenstudio.vn/sitemap.xml`
 
 ## Technical SEO Checklist
 
@@ -52,7 +52,7 @@ Thay thế `YOUR_VERIFICATION_CODE_HERE` trong `index.html` (dòng 20) bằng m�
    - File: `index.html`
    
 3. **Update URLs in sitemap.xml**
-   - Thay `https://lifestudio.vn` bằng domain thực tế
+   - Thay `https://greenstudio.vn` bằng domain thực tế
    
 4. **Update URLs in SEO component**
    - File: `src/components/SEO.tsx`

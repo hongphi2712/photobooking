@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-const TRACKING_ID = 'G-XXXXXXXXXX'; // Thay bằng Google Analytics ID của bạn
+const TRACKING_ID = 'G-NJW538XEFG'; // Firebase Analytics ID
 
 export const useGoogleAnalytics = () => {
   const location = useLocation();

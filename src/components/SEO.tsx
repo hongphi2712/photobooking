@@ -10,11 +10,11 @@ interface SEOProps {
 }
 
 const SEO = ({ 
-  title = 'Life Studio - Chụp Ảnh Kỷ Yếu Chuyên Nghiệp Tại Hà Nội',
-  description = 'Life Studio chuyên chụp ảnh kỷ yếu, ảnh concept, cho thuê trang phục và dịch vụ cưới chuyên nghiệp tại Hà Nội. Giá tốt, chất lượng cao, đội ngũ nhiệt tình.',
-  keywords = 'chụp ảnh kỷ yếu, chụp ảnh kỷ yếu Hà Nội, ảnh kỷ yếu đẹp, life studio, chụp ảnh concept, cho thuê trang phục, dịch vụ cưới',
-  ogImage = 'https://lifestudio.vn/images/og-image.jpg',
-  ogUrl = 'https://lifestudio.vn',
+  title = 'GreenStudio - Chụp Ảnh Kỷ Yếu Chuyên Nghiệp Tại Hà Nội',
+  description = 'GreenStudio chuyên chụp ảnh kỷ yếu, ảnh concept, cho thuê trang phục và dịch vụ cưới chuyên nghiệp tại Hà Nội. Giá tốt, chất lượng cao, đội ngũ nhiệt tình.',
+  keywords = 'chụp ảnh kỷ yếu, chụp ảnh kỷ yếu Hà Nội, ảnh kỷ yếu đẹp, GreenStudio, chụp ảnh concept, cho thuê trang phục, dịch vụ cưới',
+  ogImage = 'https://greenstudio.vn/images/og-image.jpg',
+  ogUrl = 'https://greenstudio.vn',
   canonical
 }: SEOProps) => {
   return (
@@ -34,7 +34,7 @@ const SEO = ({
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={ogImage} />
-      <meta property="og:site_name" content="Life Studio" />
+      <meta property="og:site_name" content="GreenStudio" />
       <meta property="og:locale" content="vi_VN" />
       
       {/* Twitter */}
@@ -47,20 +47,20 @@ const SEO = ({
       {/* Additional Meta Tags */}
       <meta name="robots" content="index, follow" />
       <meta name="language" content="Vietnamese" />
-      <meta name="author" content="Life Studio" />
+      <meta name="author" content="GreenStudio" />
       <meta name="geo.region" content="VN-HN" />
       <meta name="geo.placename" content="Hà Nội" />
       
       {/* Mobile Meta Tags */}
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-      <meta name="theme-color" content="#ff80bf" />
+      <meta name="theme-color" content="#14b8a6" />
       
       {/* Schema.org JSON-LD */}
       <script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Life Studio",
+          "name": "GreenStudio",
           "image": ogImage,
           "description": description,
           "@id": ogUrl,

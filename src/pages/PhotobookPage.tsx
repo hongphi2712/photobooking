@@ -1,122 +1,124 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
-import { Book, Image, Star } from 'lucide-react';
 
 const PhotobookPage = () => {
   const photobooks = [
     {
       id: 1,
-      name: 'Photobook Classic',
-      size: '20x30cm',
-      pages: '20 trang',
-      price: '500.000đ',
-      image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800',
-      features: ['Bìa cứng cao cấp', 'Giấy ảnh chất lượng cao', 'In ảnh sắc nét', 'Thiết kế theo yêu cầu']
+      name: 'Photobook Kỷ Yếu 1',
+      image: 'https://greenstudio.vn/uploads/2128/images/photobook-ky-yeu-1.jpg'
     },
     {
       id: 2,
-      name: 'Photobook Premium',
-      size: '25x35cm',
-      pages: '30 trang',
-      price: '800.000đ',
-      image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800',
-      features: ['Bìa da cao cấp', 'Giấy ảnh Fuji Crystal', 'In offset chuyên nghiệp', 'Thiết kế độc quyền', 'Hộp đựng sang trọng'],
-      popular: true
+      name: 'Photobook Kỷ Yếu 2',
+      image: 'https://greenstudio.vn/uploads/2128/images/photobook-ky-yeu-2.jpg'
     },
     {
       id: 3,
-      name: 'Photobook Luxury',
-      size: '30x40cm',
-      pages: '40 trang',
-      price: '1.200.000đ',
-      image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800',
-      features: ['Bìa da Ý cao cấp', 'Giấy ảnh Platinum', 'In offset công nghệ Nhật', 'Thiết kế 3D độc đáo', 'Hộp gỗ sang trọng', 'Tặng USB ảnh']
+      name: 'Photobook Kỷ Yếu 3',
+      image: 'https://greenstudio.vn/uploads/2128/images/photobook-ky-yeu-3.jpg'
+    },
+    {
+      id: 4,
+      name: 'Photobook Kỷ Yếu 4',
+      image: 'https://greenstudio.vn/uploads/2128/images/photobook-ky-yeu-4.jpg'
+    },
+    {
+      id: 5,
+      name: 'Photobook Kỷ Yếu 5',
+      image: 'https://greenstudio.vn/uploads/2128/images/photobook-ky-yeu-5.jpg'
     }
   ];
 
   return (
     <>
       <SEO 
-        title="In Photobook Kỷ Yếu Chất Lượng Cao - Life Studio"
-        description="Dịch vụ in photobook kỷ yếu cao cấp tại Life Studio. Photobook Classic, Premium, Luxury với giá tốt nhất. Thiết kế độc quyền, in ảnh chất lượng cao."
-        keywords="in photobook, photobook kỷ yếu, in ảnh kỷ yếu"
-        canonical="https://lifestudio.vn/photobook"
+        title="In Photobook Kỷ Yếu Chất Lượng Cao - GreenStudio"
+        description="Dịch vụ in photobook kỷ yếu cao cấp tại GreenStudio. Bảng giá thiết kế in ấn photobook kỷ yếu đa dạng kích thước với giá tốt nhất."
+        keywords="in photobook, photobook kỷ yếu, in ảnh kỷ yếu, bảng giá photobook"
+        canonical="https://greenstudio.vn/photobook"
       />
       <Header />
-      <main className="pt-20 min-h-screen">
-        <section className="relative h-[50vh] bg-gradient-to-r from-pink-300 to-pink-400 flex items-center justify-center">
-          <div className="absolute inset-0 bg-black/10"></div>
-          <div className="relative z-10 text-center text-white px-4">
-            <Book className="w-20 h-20 mx-auto mb-6" />
-            <h1 className="text-5xl md:text-6xl font-bold mb-4">PHOTOBOOK</h1>
-            <p className="text-xl md:text-2xl">Lưu giữ kỷ niệm trong cuốn sách ảnh đẹp nhất</p>
+      <main className="pt-20 min-h-screen bg-gradient-to-b from-teal-50 to-white">
+        {/* Hero Section */}
+        <section className="py-16 px-4 bg-gradient-to-br from-teal-50 to-white">
+          <div className="max-w-7xl mx-auto text-center">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              PHOTOBOOK KỶ YẾU
+            </h1>
+            <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
+              Photobook kỷ yếu in ấn chuyên nghiệp, lưu giữ những khoảnh khắc đẹp nhất của tuổi học trò. 
+              GreenStudio cung cấp dịch vụ thiết kế và in photobook chất lượng cao với giá cả phải chăng.
+            </p>
+            <div className="w-24 h-1 bg-teal-600 mx-auto rounded-full"></div>
           </div>
         </section>
 
+        {/* Pricing Table Section */}
+        <section className="py-20 px-4">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">BẢNG GIÁ PHOTOBOOK</h2>
+              <p className="text-gray-600">Bảng giá thiết kế in ấn photobook kỷ yếu</p>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+              <img 
+                src="https://greenstudio.vn/Uploads/2128/images/photobook/b%E1%BA%A3ng%20gi%C3%A1/bang-gia-photobook-ky-yeu.jpg"
+                alt="Bảng giá photobook kỷ yếu"
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* Sample Photobooks */}
         <section className="py-20 px-4 bg-white">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-gray-900 mb-4">BẢNG GIÁ PHOTOBOOK</h2>
-              <p className="text-gray-600">Chọn photobook phù hợp với nhu cầu của bạn</p>
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">MẪU PHOTOBOOK</h2>
+              <p className="text-gray-600">Tham khảo các mẫu photobook kỷ yếu đã thực hiện</p>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {photobooks.map(book => (
-                <div 
-                  key={book.id}
-                  className={`bg-white border-2 rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl ${
-                    book.popular ? 'border-pink-400 shadow-xl scale-105' : 'border-pink-100'
-                  }`}
-                >
-                  {book.popular && (
-                    <div className="bg-pink-400 text-white text-center py-2 font-bold flex items-center justify-center gap-2">
-                      <Star className="w-4 h-4 fill-current" />
-                      PHỔ BIẾN NHẤT
-                    </div>
-                  )}
-                  <div className="h-64 overflow-hidden">
-                    <img src={book.image} alt={book.name} className="w-full h-full object-cover" />
+                <div key={book.id} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+                  <div className="relative h-96 overflow-hidden bg-gray-100">
+                    <img 
+                      src={book.image} 
+                      alt={book.name}
+                      className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
+                    />
                   </div>
-                  <div className="p-6">
-                    <h3 className="text-2xl font-bold text-pink-500 mb-2">{book.name}</h3>
-                    <div className="flex items-center gap-4 text-sm text-gray-600 mb-4">
-                      <span>📏 {book.size}</span>
-                      <span>📄 {book.pages}</span>
-                    </div>
-                    <div className="text-3xl font-bold text-gray-900 mb-4">{book.price}</div>
-                    <ul className="space-y-2 mb-6">
-                      {book.features.map((feature, index) => (
-                        <li key={index} className="flex items-center gap-2 text-gray-600 text-sm">
-                          <div className="w-1.5 h-1.5 bg-pink-400 rounded-full"></div>
-                          {feature}
-                        </li>
-                      ))}
-                    </ul>
-                    <button className="w-full py-3 bg-pink-400 text-white rounded-full font-bold hover:bg-pink-500 transition-colors">
-                      Đặt Hàng Ngay
-                    </button>
+                  <div className="p-6 text-center">
+                    <h3 className="text-lg font-bold text-gray-900">{book.name}</h3>
                   </div>
                 </div>
               ))}
             </div>
+          </div>
+        </section>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="text-center p-8 bg-pink-50 rounded-2xl">
-                <Image className="w-16 h-16 text-pink-400 mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">In Ảnh Chất Lượng Cao</h3>
-                <p className="text-gray-600">Công nghệ in offset hiện đại, màu sắc sống động</p>
-              </div>
-              <div className="text-center p-8 bg-pink-50 rounded-2xl">
-                <Book className="w-16 h-16 text-pink-400 mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">Thiết Kế Độc Quyền</h3>
-                <p className="text-gray-600">Đội ngũ designer chuyên nghiệp tư vấn và thiết kế</p>
-              </div>
-              <div className="text-center p-8 bg-pink-50 rounded-2xl">
-                <Star className="w-16 h-16 text-pink-400 mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">Bảo Hành Lâu Dài</h3>
-                <p className="text-gray-600">Cam kết chất lượng, bảo hành 12 tháng</p>
-              </div>
+        {/* CTA Section */}
+        <section className="py-20 px-4 bg-gradient-to-br from-teal-50 to-white">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">CÓ THỂ BẠN QUAN TÂM</h2>
+            <p className="text-gray-600 mb-8">
+              Đặt in photobook kỷ yếu cao cấp ngay hôm nay để lưu giữ những kỷ niệm đẹp nhất của tuổi học trò. 
+              Đội ngũ thiết kế chuyên nghiệp, in ấn chất lượng cao, giao hàng nhanh chóng.
+            </p>
+            <div className="flex flex-wrap gap-4 justify-center">
+              <a href="/booking">
+                <button className="px-10 py-4 bg-teal-600 text-white rounded-full font-bold hover:bg-teal-700 transition-colors shadow-lg">
+                  Đặt Hàng Ngay
+                </button>
+              </a>
+              <a href="/contact">
+                <button className="px-10 py-4 bg-white text-teal-600 border-2 border-teal-600 rounded-full font-bold hover:bg-teal-50 transition-colors shadow-lg">
+                  Tư Vấn Miễn Phí
+                </button>
+              </a>
             </div>
           </div>
         </section>
