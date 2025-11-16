@@ -14,7 +14,7 @@ const HomePage = () => {
         title="GreenStudio - Chụp Ảnh Kỷ Yếu Chuyên Nghiệp Tại Hà Nội"
         description="GreenStudio chuyên chụp ảnh kỷ yếu, ảnh concept, cho thuê trang phục và dịch vụ cưới chuyên nghiệp tại Hà Nội. Giá tốt, chất lượng cao, đội ngũ nhiệt tình."
         keywords="chụp ảnh kỷ yếu, chụp ảnh kỷ yếu Hà Nội, ảnh kỷ yếu đẹp, GreenStudio"
-        canonical="https://greenstudio.vn/"
+        canonical="https://photobooking-delta.vercel.app/"
       />
       <Header />
       <Hero />

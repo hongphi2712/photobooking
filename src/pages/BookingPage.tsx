@@ -88,7 +88,7 @@ const BookingPage = () => {
         title="Đặt Lịch Chụp Ảnh - GreenStudio"
         description="Đặt lịch chụp ảnh kỷ yếu, concept, cưới tại GreenStudio. Điền thông tin và chọn thời gian phù hợp với bạn."
         keywords="đặt lịch chụp ảnh, booking GreenStudio, đặt lịch chụp ảnh kỷ yếu"
-        canonical="https://greenstudio.vn/booking"
+        canonical="https://photobooking-delta.vercel.app/booking"
       />
       <Header />
       <main className="pt-20 min-h-screen bg-gradient-to-b from-teal-50 to-white">

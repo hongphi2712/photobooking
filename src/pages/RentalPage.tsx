@@ -12,7 +12,7 @@ const RentalPage = () => {
         title="Cho Thuê Trang Phục Chụp Ảnh - GreenStudio"
         description="Cho thuê trang phục chụp ảnh đa dạng: Hanbok, Kimono, Áo dài, Váy công chúa, Vest nam và nhiều trang phục khác tại GreenStudio."
         keywords="cho thuê trang phục chụp ảnh, thuê hanbok, thuê kimono, thuê áo dài"
-        canonical="https://greenstudio.vn/rental"
+        canonical="https://photobooking-delta.vercel.app/rental"
       />
       <Header />
       <main className="pt-20 min-h-screen bg-gradient-to-b from-teal-50 to-white">

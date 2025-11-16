@@ -37,7 +37,7 @@ const PhotobookPage = () => {
         title="In Photobook Kỷ Yếu Chất Lượng Cao - GreenStudio"
         description="Dịch vụ in photobook kỷ yếu cao cấp tại GreenStudio. Bảng giá thiết kế in ấn photobook kỷ yếu đa dạng kích thước với giá tốt nhất."
         keywords="in photobook, photobook kỷ yếu, in ảnh kỷ yếu, bảng giá photobook"
-        canonical="https://greenstudio.vn/photobook"
+        canonical="https://photobooking-delta.vercel.app/photobook"
       />
       <Header />
       <main className="pt-20 min-h-screen bg-gradient-to-b from-teal-50 to-white">

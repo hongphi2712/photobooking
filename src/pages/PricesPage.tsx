@@ -41,7 +41,7 @@ const PricesPage = () => {
         title="Bảng Giá Chụp Ảnh Kỷ Yếu - LifeStudio"
         description="Bảng giá chụp ảnh kỷ yếu chi tiết tại LifeStudio. Gói concept, Hà Nội, cấp 1, cấp 2, cấp 3, sinh viên với nhiều ưu đãi hấp dẫn."
         keywords="bảng giá chụp ảnh kỷ yếu, giá chụp ảnh concept, giá chụp ảnh kỷ yếu Hà Nội"
-        canonical="https://lifestudio.vn/prices"
+        canonical="https://photobooking-delta.vercel.app/prices"
       />
       <Header />
       <main className="pt-20 min-h-screen bg-white">

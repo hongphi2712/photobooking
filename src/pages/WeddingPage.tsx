@@ -34,7 +34,7 @@ const WeddingPage = () => {
         title="Dịch Vụ Chụp Ảnh Cưới - LifeStudio"
         description="Dịch vụ chụp ảnh cưới chuyên nghiệp tại LifeStudio với các gói Basic, Standard và Premium. Lưu giữ khoảnh khắc đẹp nhất của bạn."
         keywords="chụp ảnh cưới, chụp ảnh cưới Hà Nội, gói chụp ảnh cưới"
-        canonical="https://lifestudio.vn/wedding"
+        canonical="https://photobooking-delta.vercel.app/wedding"
       />
       <Header />
       <main className="pt-20 min-h-screen">
