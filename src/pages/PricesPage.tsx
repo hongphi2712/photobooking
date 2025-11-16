@@ -1,41 +1,9 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
+import { packages } from '../data/packages';
 
 const PricesPage = () => {
-  const packages = [
-    {
-      id: '1',
-      name: 'COMBO 1',
-      image: 'https://greenstudio.vn/uploads/2128/images/638761807874688724-bang-gia-chup-anh-ky-yeu-01.jpg',
-    },
-    {
-      id: '2',
-      name: 'COMBO 2',
-      image: 'https://greenstudio.vn/uploads/2128/images/638144796499639992-chup-anh-ky-yeu-2.jpg',
-    },
-    {
-      id: '3',
-      name: 'COMBO 3',
-      image: 'https://greenstudio.vn/uploads/2128/images/638137838583262390-chup-anh-ky-yeu-3.jpg',
-    },
-    {
-      id: '4',
-      name: 'COMBO 4',
-      image: 'https://greenstudio.vn/uploads/2128/images/638137838583418645-chup-anh-ky-yeu-4.jpg',
-    },
-    {
-      id: '5',
-      name: 'COMBO 5',
-      image: 'https://greenstudio.vn/uploads/2128/images/638137838583574880-chup-anh-ky-yeu-5.jpg',
-    },
-    {
-      id: '6',
-      name: 'COMBO 6',
-      image: 'https://greenstudio.vn/uploads/2128/images/638137838583731159-chup-anh-ky-yeu-6.jpg',
-    }
-  ];
-
   const blogPosts = [
     {
       id: 1,
@@ -53,14 +21,14 @@ const PricesPage = () => {
     },
     {
       id: 3,
-      title: 'Kinh nghiệm chụp ảnh kỷ yếu của GreenStudio đẹp tuyệt vời và cực hài lòng',
+      title: 'Kinh nghiệm chụp ảnh kỷ yếu của LifeStudio đẹp tuyệt vời và cực hài lòng',
       date: '15 tháng 11, 2024',
       views: '678 Lượt xem',
       image: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600'
     },
     {
       id: 4,
-      title: 'Tạo sao nên lựa chọn ảnh kỷ yếu chụp ảnh kỷ yếu của GreenStudio?',
+      title: 'Tạo sao nên lựa chọn ảnh kỷ yếu chụp ảnh kỷ yếu của LifeStudio?',
       date: '10 tháng 11, 2024',
       views: '543 Lượt xem',
       image: 'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=600'
@@ -70,10 +38,10 @@ const PricesPage = () => {
   return (
     <>
       <SEO 
-        title="Bảng Giá Chụp Ảnh Kỷ Yếu - GreenStudio"
-        description="Bảng giá chụp ảnh kỷ yếu chi tiết tại GreenStudio. Gói concept, Hà Nội, cấp 1, cấp 2, cấp 3, sinh viên với nhiều ưu đãi hấp dẫn."
+        title="Bảng Giá Chụp Ảnh Kỷ Yếu - LifeStudio"
+        description="Bảng giá chụp ảnh kỷ yếu chi tiết tại LifeStudio. Gói concept, Hà Nội, cấp 1, cấp 2, cấp 3, sinh viên với nhiều ưu đãi hấp dẫn."
         keywords="bảng giá chụp ảnh kỷ yếu, giá chụp ảnh concept, giá chụp ảnh kỷ yếu Hà Nội"
-        canonical="https://greenstudio.vn/prices"
+        canonical="https://lifestudio.vn/prices"
       />
       <Header />
       <main className="pt-20 min-h-screen bg-white">
@@ -145,10 +113,10 @@ const PricesPage = () => {
             </h2>
 
             <p className="text-center text-gray-700 max-w-4xl mx-auto leading-relaxed mb-16">
-              GreenStudio gửi đến quý khách hàng các combo chụp ảnh kỷ yếu chuyên nghiệp. 
+              LifeStudio gửi đến quý khách hàng các combo chụp ảnh kỷ yếu chuyên nghiệp. 
               Với đội ngũ Ekip chuyên nghiệp, nhiệt tình, trách nhiệm với công việc, từ trang phục kỷ yếu,
               concept trang phục kỷ yếu, chụp ảnh kỷ yếu, phụ kiện, phương tiện di chuyển đến các dịch vụ
-              như quay MV kỷ yếu, làm photobook... tất cả đều được GreenStudio làm bằng sự tận tâm, nhiệt huyết: uy tín làm đầu.
+              như quay MV kỷ yếu, làm photobook... tất cả đều được LifeStudio làm bằng sự tận tâm, nhiệt huyết: uy tín làm đầu.
             </p>
 
             {/* Grid */}
@@ -171,9 +139,9 @@ const PricesPage = () => {
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
-                TIN TỨC greenstudio
+                TIN TỨC lifestudio
               </h2>
-              <p className="text-gray-600">Khám phá những tin tức mới cập GreenStudio</p>
+              <p className="text-gray-600">Khám phá những tin tức mới cập LifeStudio</p>
               <div className="w-20 h-1 bg-teal-600 mx-auto mt-4 rounded-full"></div>
             </div>
 

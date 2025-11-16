@@ -1,4 +1,4 @@
-import { Heart, Camera, Gift, Star } from 'lucide-react';
+import { Heart } from 'lucide-react';
 
 const Wedding = () => {
   const weddingPackages = [
@@ -47,29 +47,6 @@ const Wedding = () => {
         'Trang trí backdrop tại nhà',
         'Tặng chụp ảnh gia đình'
       ]
-    }
-  ];
-
-  const services = [
-    {
-      icon: <Heart className="w-12 h-12" />,
-      title: 'Tư Vấn Concept',
-      description: 'Đội ngũ chuyên nghiệp tư vấn concept phù hợp với phong cách của bạn'
-    },
-    {
-      icon: <Camera className="w-12 h-12" />,
-      title: 'Thiết Bị Hiện Đại',
-      description: 'Máy ảnh, flycam và thiết bị lighting chuyên nghiệp'
-    },
-    {
-      icon: <Gift className="w-12 h-12" />,
-      title: 'Quà Tặng Đặc Biệt',
-      description: 'Album ảnh, photobook và nhiều quà tặng ý nghĩa'
-    },
-    {
-      icon: <Star className="w-12 h-12" />,
-      title: 'Chất Lượng Đảm Bảo',
-      description: 'Cam kết chất lượng ảnh đẹp và dịch vụ tận tâm'
     }
   ];
 

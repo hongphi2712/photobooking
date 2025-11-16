@@ -11,56 +11,56 @@ export const albums: Album[] = [
     id: '1',
     title: 'Album Chụp Dã Ngoại 1',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-1.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-1.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '2',
     title: 'Album Chụp Dã Ngoại 2',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-2.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-2.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '3',
     title: 'Album Chụp Dã Ngoại 3',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-3.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-3.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '4',
     title: 'Album Chụp Dã Ngoại 4',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-4.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-4.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '5',
     title: 'Album Chụp Dã Ngoại 5',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-5.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-5.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '6',
     title: 'Album Chụp Dã Ngoại 6',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-6.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-6.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '7',
     title: 'Album Chụp Dã Ngoại 7',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-7.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-7.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '8',
     title: 'Album Chụp Dã Ngoại 8',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-8.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-8.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
@@ -81,238 +81,238 @@ export const albums: Album[] = [
     id: '11',
     title: 'Album Chụp Dã Ngoại 11',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-11.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-11.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '12',
     title: 'Album Chụp Dã Ngoại 12',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-12.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-12.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '13',
     title: 'Album Chụp Dã Ngoại 13',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-13.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-13.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '14',
     title: 'Album Chụp Dã Ngoại 14',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-14.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-14.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '15',
     title: 'Album Chụp Dã Ngoại 15',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-15.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-15.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '16',
     title: 'Album Chụp Dã Ngoại 16',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-16.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-16.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '17',
     title: 'Album Chụp Dã Ngoại 17',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-17.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-17.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '18',
     title: 'Album Chụp Dã Ngoại 18',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-18.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-18.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '19',
     title: 'Album Chụp Dã Ngoại 19',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-19.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-19.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '20',
     title: 'Album Chụp Dã Ngoại 20',
     category: 'outdoor',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-20.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-da-ngoai-20.jpg',
     description: 'Chụp ảnh ngoài trời, tươi trẻ và năng động'
   },
   {
     id: '21',
     title: 'Album Chụp Phim Trường 1',
     category: 'studio',
-    image: 'https://greenstudio.vn/uploads/2128/images/638761804372634996-chup-anh-ky-yeu-phim-truong-1.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/638761804372634996-chup-anh-ky-yeu-phim-truong-1.jpg',
     description: 'Bối cảnh phim trường đẹp mắt'
   },
   {
     id: '22',
     title: 'Album Chụp Phim Trường 2',
     category: 'studio',
-    image: 'https://greenstudio.vn/uploads/2128/images/638761804372791228-chup-anh-ky-yeu-phim-truong-2.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/638761804372791228-chup-anh-ky-yeu-phim-truong-2.jpg',
     description: 'Bối cảnh phim trường đẹp mắt'
   },
   {
     id: '23',
     title: 'Album Chụp Phim Trường 3',
     category: 'studio',
-    image: 'https://greenstudio.vn/uploads/2128/images/638761804373416685-chup-anh-ky-yeu-phim-truong-3.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/638761804373416685-chup-anh-ky-yeu-phim-truong-3.jpg',
     description: 'Bối cảnh phim trường đẹp mắt'
   },
   {
     id: '41',
     title: 'Album Concept 1',
     category: 'concept',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-1.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-1.jpg',
     description: 'Phong cách cổ điển, nghệ thuật'
   },
   {
     id: '42',
     title: 'Album Concept 2',
     category: 'concept',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-2.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-2.jpg',
     description: 'Phong cách cổ điển, nghệ thuật'
   },
   {
     id: '43',
     title: 'Album Concept 3',
     category: 'concept',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-3.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-3.jpg',
     description: 'Phong cách cổ điển, nghệ thuật'
   },
   {
     id: '44',
     title: 'Album Concept 4',
     category: 'concept',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-4.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-4.jpg',
     description: 'Phong cách cổ điển, nghệ thuật'
   },
   {
     id: '45',
     title: 'Album Concept 5',
     category: 'concept',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-5.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-5.jpg',
     description: 'Phong cách cổ điển, nghệ thuật'
   },
   {
     id: '46',
     title: 'Album Concept 6',
     category: 'concept',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-6.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-6.jpg',
     description: 'Phong cách cổ điển, nghệ thuật'
   },
   {
     id: '47',
     title: 'Album Concept 7',
     category: 'concept',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-7.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-7.jpg',
     description: 'Phong cách cổ điển, nghệ thuật'
   },
   {
     id: '48',
     title: 'Album Concept 8',
     category: 'concept',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-8.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-8.jpg',
     description: 'Phong cách cổ điển, nghệ thuật'
   },
   {
     id: '49',
     title: 'Album Concept 9',
     category: 'concept',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-9.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-concept-9.jpg',
     description: 'Phong cách cổ điển, nghệ thuật'
   },
   {
     id: '50',
     title: 'Album Lớp 12 - 1',
     category: 'highschool',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-6.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-6.jpg',
     description: 'Kỷ niệm đẹp của tuổi học trò'
   },
   {
     id: '51',
     title: 'Album Lớp 12 - 2',
     category: 'highschool',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-7.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-7.jpg',
     description: 'Kỷ niệm đẹp của tuổi học trò'
   },
   {
     id: '52',
     title: 'Album Lớp 12 - 3',
     category: 'highschool',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-8.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-8.jpg',
     description: 'Kỷ niệm đẹp của tuổi học trò'
   },
   {
     id: '53',
     title: 'Album Lớp 12 - 4',
     category: 'highschool',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-9.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-9.jpg',
     description: 'Kỷ niệm đẹp của tuổi học trò'
   },
   {
     id: '54',
     title: 'Album Lớp 12 - 5',
     category: 'highschool',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-10.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-10.jpg',
     description: 'Kỷ niệm đẹp của tuổi học trò'
   },
   {
     id: '55',
     title: 'Album Lớp 12 - 6',
     category: 'highschool',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-11.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-11.jpg',
     description: 'Kỷ niệm đẹp của tuổi học trò'
   },
   {
     id: '56',
     title: 'Album Lớp 12 - 7',
     category: 'highschool',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-12.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-12.jpg',
     description: 'Kỷ niệm đẹp của tuổi học trò'
   },
   {
     id: '57',
     title: 'Album Lớp 12 - 8',
     category: 'highschool',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-13.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-13.jpg',
     description: 'Kỷ niệm đẹp của tuổi học trò'
   },
   {
     id: '58',
     title: 'Album Lớp 12 - 9',
     category: 'highschool',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-14.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-14.jpg',
     description: 'Kỷ niệm đẹp của tuổi học trò'
   },
   {
     id: '59',
     title: 'Album Lớp 12 - 10',
     category: 'highschool',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-15.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-15.jpg',
     description: 'Kỷ niệm đẹp của tuổi học trò'
   },
   {
     id: '60',
     title: 'Album Lớp 12 - 11',
     category: 'highschool',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-16.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-16.jpg',
     description: 'Kỷ niệm đẹp của tuổi học trò'
   },
   {
     id: '61',
     title: 'Album Lớp 12 - 12',
     category: 'highschool',
-    image: 'https://greenstudio.vn/uploads/2128/images/chup-anh-ky-yeu-17.jpg',
+    image: 'https://lifestudio.vn/uploads/2128/images/chup-anh-ky-yeu-17.jpg',
     description: 'Kỷ niệm đẹp của tuổi học trò'
   },
   {
