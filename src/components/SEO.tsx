@@ -19,6 +19,9 @@ const SEO = ({
 }: SEOProps) => {
   return (
     <Helmet>
+      {/* Google Site Verification */}
+      <meta name="google-site-verification" content="8FJc4hruUind17mrILvJqBFfo5uKUT5DvMowJQbZ4DA" />
+      
       {/* Primary Meta Tags */}
       <title>{title}</title>
       <meta name="title" content={title} />
